@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  -webkit-font-smoothing: auto;
+  -moz-font-smoothing: auto;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: auto;
+  text-rendering: optimizeLegibility;
+  font-smooth: always;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+.progress-bar {
+  width: 250px;
+  height: 30px;
+  border: 1px solid black;
+  background-color: #efefef;
+}
+
+#bar {
+  width: 10%;
+  height: 30px;
+  background-color: green;
+}

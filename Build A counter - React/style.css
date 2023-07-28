@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    -webkit-font-smoothing: auto;
+    -moz-font-smoothing: auto;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: auto;
+    text-rendering: optimizeLegibility;
+    font-smooth: always;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+main {
+    max-width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+
+}
+
+.container button {
+    height: 30px;
+    margin: 20px 10px;
+    padding: 2px 5px;
+    text-align: center;
+    color: #fff;
+    outline: none;
+    border: 1px solid #fff;
+}
+
+#increment {
+    background-color: #2ecc71;
+}
+
+#increment:hover {
+    background-color: #27ae60;
+}
+
+#reset {
+    background-color: #e74c3c;
+}
+
+#reset:hover {
+    background-color: #c0392b;
+}
+
+#decrement {
+    background-color: #f1c40f
+}
+
+#decrement:hover {
+    background-color: #f39c12;
+}
